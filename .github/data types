@@ -1,0 +1,14 @@
+Class datatypes
+{
+public static void main(String[]args)
+{
+ String name ="park jimin";
+ double cost= 25.56;
+ int a=10;
+ float b=2.5;
+ System.out.println(name);
+ System.out.println(a);
+ System.out.println(b);
+ System.out.println(cost);
+}
+}
