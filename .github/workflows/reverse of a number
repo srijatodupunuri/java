@@ -1,0 +1,22 @@
+import java.util.Scanner;
+class rev
+{
+    public static void main(String[]args)
+    {
+        Scanner sc=new Scanner(System.in);
+        int n;
+        int l;
+        n=sc.nextInt();
+        int num=0; 
+        while(n>0)
+        {
+            l=n%10;
+            n=n/10;
+            num=num*10+l;
+            System.out.println(num);
+        } 
+
+    }
+
+
+}
