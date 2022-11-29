@@ -1,0 +1,30 @@
+import java.util.Arrays;
+import java.util.Scanner;
+public class Arrayqts
+{
+  public static void main(String[]args)
+  {
+   
+    Scanner sc=new Scanner(System.in);
+    System.out.println("enter number of elements you want to store:");
+    int n=sc.nextInt();
+    int num=34;
+    int arr1[]=new int[n];
+    for(int i=0;i<n;i++)
+    {
+      System.out.println("enter array elements:");
+      arr1[i]=sc.nextInt();
+    }
+    for(int i=0;i<arr1.length;i++)
+    {
+      if(num==arr1[i])
+      {
+        System.out.println("The element is present in array");
+      }
+      else
+      {
+        System.out.println("The entered number is not present in the array");
+      }
+    }
+  }
+}
